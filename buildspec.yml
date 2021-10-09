@@ -17,5 +17,5 @@ phases:
     commands:
       - echo Build completed on `date`
       - ls -lsh
-    finally:
-      -  echo Vuild 
+      - cd ./target
+      - ls -lsh
